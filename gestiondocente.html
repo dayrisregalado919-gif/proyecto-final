@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión Docente – ITLA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body style="font-family: 'DM Sans', sans-serif; background-color: #f8f9fa;">
+
+<nav class="navbar navbar-expand-lg sticky-top shadow-sm p-0" style="background-color: #5b0fa8 !important;">
+  <div class="container">
+    <a class="navbar-brand py-2" href="index.html">
+      <span class="text-white fw-black fs-4" style="font-family:'Outfit',sans-serif; letter-spacing:-.5px;">ITLA</span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navDocente">
+      <i class="bi bi-list text-white fs-3"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navDocente">
+      <ul class="navbar-nav ms-auto gap-2">
+        <li class="nav-item"><a class="nav-link text-white-50 fw-medium" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-white-50 fw-medium" href="quienessomos.html">Institución</a></li>
+        <li class="nav-item"><a class="nav-link text-white active border-bottom border-2 border-white fw-medium" href="gestiondocente.html">Gestión Docente</a></li>
+        <li class="nav-item ms-lg-2 py-2 py-lg-0">
+          <a class="btn btn-outline-light fw-bold px-3" href="#" style="font-size: 0.9rem;">Cerrar Sesión</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="py-5">
+  <div class="container">
+    <div class="mb-5">
+      <h1 class="fw-bold display-5" style="color:#1a003a; font-family:'Outfit',sans-serif;">Portal de Gestión Docente</h1>
+      <p class="text-muted fs-5">Herramientas y recursos exclusivos para el cuerpo académico del ITLA.</p>
+    </div>
+    
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="#" class="text-decoration-none shadow-sm d-block" 
+           style="background: #fff; padding: 25px; border-radius: 15px; border: 1px solid #eee; transition: all 0.2s ease;"
+           onmouseover="this.style.borderColor='#5b0fa8'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.05)';" 
+           onmouseout="this.style.borderColor='#eee'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+          <i class="bi bi-file-earmark-spreadsheet fs-2 text-success"></i>
+          <h5 class="fw-bold mt-3" style="color:#1a003a;">Registro de Calificaciones</h5>
+          <p class="small text-muted mb-0">Acceso al SIGE para carga de notas, asistencias y reportes de desempeño.</p>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="#" class="text-decoration-none shadow-sm d-block" 
+           style="background: #fff; padding: 25px; border-radius: 15px; border: 1px solid #eee; transition: all 0.2s ease;"
+           onmouseover="this.style.borderColor='#5b0fa8'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.05)';" 
+           onmouseout="this.style.borderColor='#eee'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+          <i class="bi bi-calendar3 fs-2 text-primary"></i>
+          <h5 class="fw-bold mt-3" style="color:#1a003a;">Calendario Académico</h5>
+          <p class="small text-muted mb-0">Consulta las fechas de exámenes, cierres de ciclo y feriados institucionales.</p>
+        </a>
+      </div>
+
+      <div class="col-md-4">
+        <a href="#" class="text-decoration-none shadow-sm d-block" 
+           style="background: #fff; padding: 25px; border-radius: 15px; border: 1px solid #eee; transition: all 0.2s ease;"
+           onmouseover="this.style.borderColor='#5b0fa8'; this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.05)';" 
+           onmouseout="this.style.borderColor='#eee'; this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+          <i class="bi bi-book fs-2 text-danger"></i>
+          <h5 class="fw-bold mt-3" style="color:#1a003a;">Recursos Pedagógicos</h5>
+          <p class="small text-muted mb-0">Plantillas de sílabos, guías metodológicas y normativas para docentes.</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-5 p-4 p-md-5 bg-white shadow-sm rounded-4 border">
+      <div class="d-flex align-items-center mb-4">
+        <div class="p-2 rounded-3 me-3" style="background-color: #f5f0ff;">
+          <i class="bi bi-megaphone fs-3" style="color: #5b0fa8;"></i>
+        </div>
+        <h3 class="fw-bold mb-0" style="color:#1a003a; font-family:'Outfit',sans-serif;">Avisos Docentes</h3>
+      </div>
+      
+      <div class="alert alert-info border-0 d-flex align-items-center mb-3" style="background-color: #e7f3ff; border-radius: 12px;">
+        <i class="bi bi-info-circle-fill me-3 fs-4 text-primary"></i>
+        <div>
+          <strong class="d-block">Planificación Semestral</strong>
+          <span class="small">Recordatorio: La entrega de la planificación semestral vence el 30 de Abril.</span>
+        </div>
+      </div>
+
+      <div class="alert border-0 d-flex align-items-center" style="background-color: #fff4e5; border-radius: 12px;">
+        <i class="bi bi-exclamation-triangle-fill me-3 fs-4 text-warning"></i>
+        <div>
+          <strong class="d-block">Capacitación Docente</strong>
+          <span class="small">El taller sobre IA Aplicada a la Educación será este viernes a las 4:00 PM.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-5 text-white mt-5" style="background-color: #1a003a;">
+  <div class="container text-center">
+    <h3 class="fw-black mb-3" style="font-family:'Outfit',sans-serif;">ITLA</h3>
+    <p class="opacity-50 small mb-4">© 2026 Instituto Tecnológico de Las Américas – Gestión Docente</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="#" class="text-white-50 small text-decoration-none">Soporte SIGE</a>
+      <span class="text-white-50">|</span>
+      <a href="#" class="text-white-50 small text-decoration-none">Correo Institucional</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

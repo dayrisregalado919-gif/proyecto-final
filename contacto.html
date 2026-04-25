@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contactos – ITLA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body style="font-family: 'DM Sans', sans-serif; background-color: #ffffff;">
+
+<nav class="navbar navbar-expand-lg sticky-top shadow-sm p-0" style="background-color: #5b0fa8 !important;">
+  <div class="container">
+    <a class="navbar-brand py-2" href="index.html">
+      <span class="text-white fw-black fs-4" style="font-family:'Outfit',sans-serif; letter-spacing:-.5px;">ITLA</span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navContact">
+      <i class="bi bi-list text-white fs-3"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navContact">
+      <ul class="navbar-nav ms-auto gap-2">
+        <li class="nav-item"><a class="nav-link text-white-50 fw-medium" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-white-50 fw-medium" href="quienessomos.html">Institución</a></li>
+        <li class="nav-item"><a class="nav-link text-white-50 fw-medium" href="ofertaacademica.html">Carreras</a></li>
+        <li class="nav-item"><a class="nav-link text-white active border-bottom border-2 border-white fw-medium" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="py-5 mt-lg-4">
+  <div class="container">
+    <div class="row g-5">
+      
+      <div class="col-lg-5">
+        <div class="shadow-lg h-100" style="background-color: #5b0fa8; color: #fff; padding: 40px; border-radius: 25px;">
+          <h2 class="fw-bold mb-4" style="font-family:'Outfit',sans-serif;">Información de Contacto</h2>
+          <p class="mb-5 opacity-75">¿Tienes dudas sobre los procesos de admisión o nuestras carreras? Estamos aquí para ayudarte a iniciar tu carrera en tecnología.</p>
+          
+          <div class="d-flex mb-4">
+            <div class="me-3 fs-3"><i class="bi bi-geo-alt"></i></div>
+            <div>
+              <h6 class="fw-bold mb-1">Sede Principal</h6>
+              <p class="small mb-0 opacity-75">Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica, República Dominicana.</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="me-3 fs-3"><i class="bi bi-telephone"></i></div>
+            <div>
+              <h6 class="fw-bold mb-1">Teléfono</h6>
+              <p class="small mb-0 opacity-75">(809) 567-7100</p>
+            </div>
+          </div>
+
+          <div class="d-flex mb-4">
+            <div class="me-3 fs-3"><i class="bi bi-envelope"></i></div>
+            <div>
+              <h6 class="fw-bold mb-1">Correo Electrónico</h6>
+              <p class="small mb-0 opacity-75">info@itla.edu.do</p>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 mt-5 pt-3 border-top border-white border-opacity-10">
+            <a href="#" class="text-white fs-4 opacity-75" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white fs-4 opacity-75" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-4 opacity-75" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="text-white fs-4 opacity-75" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-7">
+        <h2 class="fw-bold mb-4" style="font-family:'Outfit',sans-serif; color: #1a003a;">Envíanos un mensaje</h2>
+        <p class="text-muted mb-4">Completa el siguiente formulario y un representante de admisiones se pondrá en contacto contigo a la brevedad.</p>
+        
+        <form class="row g-4">
+          <div class="col-md-6">
+            <label class="form-label small fw-bold text-uppercase opacity-50" style="letter-spacing: 1px;">Nombre Completo</label>
+            <input type="text" class="form-control" placeholder="Ej. Juan Pérez" style="padding: 12px; border-radius: 12px; border: 1px solid #dee2e6;">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label small fw-bold text-uppercase opacity-50" style="letter-spacing: 1px;">Correo Electrónico</label>
+            <input type="email" class="form-control" placeholder="juan@ejemplo.com" style="padding: 12px; border-radius: 12px; border: 1px solid #dee2e6;">
+          </div>
+          <div class="col-12">
+            <label class="form-label small fw-bold text-uppercase opacity-50" style="letter-spacing: 1px;">Asunto del Mensaje</label>
+            <select class="form-select" style="padding: 12px; border-radius: 12px; border: 1px solid #dee2e6;">
+              <option selected disabled>Selecciona una opción</option>
+              <option>Información de Carreras</option>
+              <option>Admisiones y Registro</option>
+              <option>Educación Permanente</option>
+              <option>Soporte Técnico</option>
+              <option>Otros</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label class="form-label small fw-bold text-uppercase opacity-50" style="letter-spacing: 1px;">Tu Mensaje</label>
+            <textarea class="form-control" rows="5" placeholder="Escribe tu consulta aquí..." style="padding: 12px; border-radius: 12px; border: 1px solid #dee2e6;"></textarea>
+          </div>
+          <div class="col-12 mt-4">
+            <button type="submit" class="btn w-100 py-3 fw-bold shadow-sm" style="background-color: #5b0fa8; color: #fff; border:none; border-radius: 12px; transition: 0.3s;" onmouseover="this.style.backgroundColor='#4a0b8a'" onmouseout="this.style.backgroundColor='#5b0fa8'">
+              Enviar Mensaje <i class="bi bi-send ms-2"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="ratio ratio-21x9 mt-5" style="filter: grayscale(0.2) contrast(1.1); border-top: 1px solid #eee;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.44474706782!2d-69.67389102392437!3d18.46352938261803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf63630f576137%3A0xc39ebf81a74d284a!2sITLA!5e0!3m2!1ses!2sdo!4v1714400000000!5m2!1ses!2sdo" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<footer class="py-5 text-white" style="background-color: #1a003a;">
+  <div class="container text-center">
+    <h3 class="fw-black mb-3" style="font-family:'Outfit',sans-serif;">ITLA</h3>
+    <p class="opacity-50 small mb-4">Instituto Tecnológico de Las Américas – Contáctanos</p>
+    <hr class="opacity-10 mb-4 mx-auto w-50">
+    <p class="small opacity-25 mb-0">© 2026 ITLA. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
